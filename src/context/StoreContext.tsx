@@ -423,15 +423,20 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
           const snap = await getDoc(doc(db, 'app_state', 'main_store'));
           if (snap.exists() && isMounted) {
             const cloudData = snap.data();
-            if (cloudData) {
-              if (cloudData.services && Array.isArray(cloudData.services) && cloudData.services.length > 0) {
+            const localSaved = localStorage.getItem(LOCAL_STORAGE_KEY);
+            // Only hydrate from Cloud if local storage was never saved by the user
+            if (cloudData && !localSaved) {
+              if (cloudData.services && Array.isArray(cloudData.services)) {
                 setServices(cloudData.services);
               }
-              if (cloudData.designs && Array.isArray(cloudData.designs) && cloudData.designs.length > 0) {
+              if (cloudData.designs && Array.isArray(cloudData.designs)) {
                 setDesigns(cloudData.designs);
               }
-              if (cloudData.projects && Array.isArray(cloudData.projects) && cloudData.projects.length > 0) {
+              if (cloudData.projects && Array.isArray(cloudData.projects)) {
                 setProjects(cloudData.projects);
+              }
+              if (cloudData.categories && Array.isArray(cloudData.categories)) {
+                setCategories(cloudData.categories);
               }
             }
           }
@@ -516,7 +521,7 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       }).catch(() => {});
     } catch (e) {}
 
-    // 3. Sync to Firebase Cloud Firestore (debounced to preserve free tier quota)
+    // 3. Sync to Firebase Cloud Firestore (near-instant sync so deletions persist)
     const firebaseTimer = setTimeout(() => {
       try {
         const cloudState = sanitizeForCloudFirestore({
@@ -541,7 +546,7 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
           handleFirestoreError(err, OperationType.WRITE, 'app_state/main_store');
         });
       } catch (err) {}
-    }, 2500);
+    }, 400);
 
     // 4. Also sync to localStorage as secondary cache
     try {
