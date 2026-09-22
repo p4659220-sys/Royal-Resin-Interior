@@ -1,0 +1,62 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Default-deny safety net
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isSignedIn() && (
+        request.auth.token.email == 'p4659220@gmail.com' ||
+        exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+      );
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    // App State / Configuration & Catalog
+    match /app_state/{docId} {
+      allow read: if true;
+      allow write: if isValidId(docId);
+    }
+
+    // Customer Bookings
+    match /bookings/{bookingId} {
+      allow read: if true;
+      allow create: if isValidId(bookingId) && 
+                    request.resource.data.name is string && 
+                    request.resource.data.phone is string;
+      allow update, delete: if isValidId(bookingId);
+    }
+
+    // Customer Enquiries
+    match /enquiries/{enquiryId} {
+      allow read: if true;
+      allow create: if isValidId(enquiryId) && 
+                    request.resource.data.name is string && 
+                    request.resource.data.phone is string;
+      allow update, delete: if isValidId(enquiryId);
+    }
+
+    // Customer Reviews & Testimonials
+    match /reviews/{reviewId} {
+      allow read: if true;
+      allow create, update: if isValidId(reviewId) && 
+                            request.resource.data.customerName is string && 
+                            request.resource.data.customerName.size() <= 100 &&
+                            request.resource.data.review is string && 
+                            request.resource.data.review.size() <= 1500 &&
+                            request.resource.data.rating is number && 
+                            request.resource.data.rating >= 1 && 
+                            request.resource.data.rating <= 5;
+      allow delete: if isValidId(reviewId);
+    }
+  }
+}

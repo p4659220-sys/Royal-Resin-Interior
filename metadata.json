@@ -1,0 +1,6 @@
+{
+  "name": "Royal Resin Interior",
+  "description": "Luxury 2D & 3D Epoxy Flooring, Metallic Resin Marble, Designer Wall Art, Staircases & Ceiling Finishes with Complete Management Panel",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "StoreState": {
+      "title": "StoreState",
+      "description": "Entire website state, content, services, designs, media vault, and company settings",
+      "type": "object",
+      "properties": {
+        "updatedAt": {
+          "type": "string",
+          "description": "ISO timestamp of last update"
+        },
+        "version": {
+          "type": "string",
+          "description": "Schema version"
+        }
+      }
+    },
+    "Booking": {
+      "title": "Booking",
+      "description": "Site visit inspection booking request",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "service": { "type": "string" },
+        "date": { "type": "string" },
+        "location": { "type": "string" },
+        "notes": { "type": "string" },
+        "status": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "name", "phone", "service", "date", "status", "createdAt"]
+    },
+    "Enquiry": {
+      "title": "Enquiry",
+      "description": "Customer project cost estimate and quotation enquiry",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "service": { "type": "string" },
+        "approxSqFt": { "type": "string" },
+        "city": { "type": "string" },
+        "message": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "name", "phone", "service", "createdAt"]
+    },
+    "Review": {
+      "title": "Review",
+      "description": "Verified customer feedback and testimonials",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "customerName": { "type": "string" },
+        "location": { "type": "string" },
+        "serviceUsed": { "type": "string" },
+        "review": { "type": "string" },
+        "rating": { "type": "number" },
+        "photo": { "type": "string" },
+        "date": { "type": "string" },
+        "isPublished": { "type": "boolean" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "customerName", "review", "rating", "isPublished"]
+    }
+  },
+  "firestore": {
+    "/app_state/{docId}": {
+      "schema": "StoreState",
+      "description": "Contains persistent website configuration, designs, services, and media references"
+    },
+    "/bookings/{bookingId}": {
+      "schema": "Booking",
+      "description": "Collection of customer site visit requests"
+    },
+    "/enquiries/{enquiryId}": {
+      "schema": "Enquiry",
+      "description": "Collection of customer project quotation enquiries"
+    },
+    "/reviews/{reviewId}": {
+      "schema": "Review",
+      "description": "Collection of verified customer reviews and testimonials"
+    }
+  }
+}

@@ -1,0 +1,638 @@
+{
+  "categories": [
+    {
+      "id": "cat-1",
+      "slug": "metallic-marble",
+      "name": "Metallic & Resin Marble",
+      "shortDesc": "Deep liquid swirl with pearlescent metallic pigments mimicking exotic Italian & exotic natural marbles.",
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "badge": "Luxury Signature",
+      "totalDesigns": 6
+    },
+    {
+      "id": "cat-2",
+      "slug": "2d-flooring",
+      "name": "2D Designer Epoxy Flooring",
+      "shortDesc": "Seamless graphic inlays, Moroccan geometrics, and precision patterned floors for timeless modern spaces.",
+      "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+      "badge": "Popular Choice",
+      "totalDesigns": 5
+    },
+    {
+      "id": "cat-3",
+      "slug": "3d-flooring",
+      "name": "3D Epoxy Flooring",
+      "shortDesc": "Hyper-realistic optical illusion and depth floors transforming bathrooms, lobbies, and luxury master bedrooms.",
+      "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80",
+      "badge": "Ultra Premium",
+      "totalDesigns": 6
+    },
+    {
+      "id": "cat-4",
+      "slug": "wall-art",
+      "name": "Resin Wall Art & Cladding",
+      "shortDesc": "Handcrafted geode murals, metallic waves, liquid marble feature walls, and illuminated stone veneers.",
+      "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=80",
+      "badge": "Artisan Bespoke",
+      "totalDesigns": 5
+    },
+    {
+      "id": "cat-5",
+      "slug": "staircase",
+      "name": "Designer Epoxy Staircase",
+      "shortDesc": "Live-edge river wood steps, seamless waterfall marble treads with anti-skid transparent grip finishes.",
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "badge": "Architectural",
+      "totalDesigns": 4
+    },
+    {
+      "id": "cat-6",
+      "slug": "ceiling",
+      "name": "Resin Ceiling & Domes",
+      "shortDesc": "Backlit translucent onyx panels, celestial cosmic starlight domes, and atmospheric optical sky ceilings.",
+      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+      "badge": "Illuminated Finishes",
+      "totalDesigns": 4
+    },
+    {
+      "id": "cat-7",
+      "slug": "commercial-industrial",
+      "name": "Commercial & Industrial Epoxy",
+      "shortDesc": "Heavy-duty high traffic resistance, chemical-proof, anti-bacterial, ESD safe, and corporate logo integration.",
+      "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+      "badge": "Heavy Duty Grade",
+      "totalDesigns": 4
+    }
+  ],
+  "designs": [],
+  "services": [
+    {
+      "id": "srv-1",
+      "slug": "metallic-marble",
+      "name": "Metallic & Resin Marble Flooring",
+      "tagline": "Liquid Luxury Reimagined with Italian Veining & Shimmering Pigments",
+      "description": "Our signature metallic epoxy systems replicate the natural organic beauty of Italian marble with 10x the strength, zero grout lines, and complete resistance to spills, turmeric, red wine, and scratching.",
+      "mainImage": "/uploads/service_marble_1790062630157.png",
+      "features": [
+        "Monolithic Seamless Surface (No grout lines)",
+        "Mirror Glass Luster or Matte Satin Topcoats",
+        "Stain-Proof, Waterproof & Chemical Resistant",
+        "UV-Stable Non-Yellowing Formulations",
+        "Custom Pigment Mixing with Copper, Gold & Silver"
+      ],
+      "suitableLocations": [
+        "Living Rooms",
+        "Master Bedrooms",
+        "Hotel Lobbies",
+        "Luxury Bathrooms",
+        "Executive Boardrooms"
+      ],
+      "minRate": 150,
+      "maxRate": 930,
+      "unit": "sq.ft.",
+      "isPublished": true
+    },
+    {
+      "id": "srv-2",
+      "slug": "2d-flooring",
+      "name": "2D Designer Epoxy Flooring",
+      "tagline": "Timeless Patterns, Moroccan Geometrics & Inlaid Motifs",
+      "description": "Custom graphic designs, tile patterns, and geometric brass inlays encapsulated beneath heavy-duty self-leveling clear resins. Enjoy intricate decorative patterns with the easy cleaning of a single glass sheet.",
+      "mainImage": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+      "features": [
+        "Precision Handcrafted Inlays",
+        "Moroccan, Greek & Art Deco Patterns",
+        "Scratch-Proof Polyurethane Armor Coat",
+        "Ultra Easy Mopping & Dust-Free Living",
+        "Available in High Gloss or Micro-Texture Anti-Slip"
+      ],
+      "suitableLocations": [
+        "Kitchens",
+        "Balconies",
+        "Dining Areas",
+        "Boutique Cafes",
+        "Corridors"
+      ],
+      "minRate": 280,
+      "maxRate": 450,
+      "unit": "sq.ft.",
+      "isPublished": true
+    },
+    {
+      "id": "srv-3",
+      "slug": "3d-flooring",
+      "name": "3D Optical Epoxy Flooring",
+      "tagline": "Mind-Blowing Visual Depth & Lifelike Natural Perspectives",
+      "description": "Transform your bathroom, bedroom, or entertainment space into a vibrant oceanic reef, river bed, or cosmic abyss with our 3-layer optical magnification resin system.",
+      "mainImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
+      "features": [
+        "High-Resolution 4K Optical Prints",
+        "Magnifying Resin Topcoat for Real 3D Depth",
+        "100% Waterproof - Ideal for Bathrooms & Spas",
+        "Anti-Skid Micro-Grit Additive Included",
+        "Long-Term Color Brilliance Guaranteed"
+      ],
+      "suitableLocations": [
+        "Bathrooms & Powder Rooms",
+        "Kids Bedrooms",
+        "Theme Lounges",
+        "Swimming Pool Areas"
+      ],
+      "minRate": 450,
+      "maxRate": 780,
+      "unit": "sq.ft.",
+      "isPublished": true
+    },
+    {
+      "id": "srv-4",
+      "slug": "wall-art",
+      "name": "Resin Wall Art & Custom Cladding",
+      "tagline": "Hand-Sculpted Gemstone Geodes & Seamless Liquid Walls",
+      "description": "Create show-stopping feature walls with genuine crystals, gold leaf veining, and 3D textured relief. Every piece is an artisan original tailored to your interior design theme.",
+      "mainImage": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=80",
+      "features": [
+        "Handcrafted with Real Quartz & Mica Gems",
+        "Seamless Wall Paneling Without Joints",
+        "Light-Reflecting Metallic Depths",
+        "Custom Sizing from Framed Canvases to Full Walls",
+        "Mildew, Termite & Moisture Resistant"
+      ],
+      "suitableLocations": [
+        "TV Backgrounds",
+        "Bed Headboard Walls",
+        "Dining Room Accents",
+        "Hotel Lobbies"
+      ],
+      "minRate": 350,
+      "maxRate": 1200,
+      "unit": "sq.ft.",
+      "isPublished": true
+    },
+    {
+      "id": "srv-5",
+      "slug": "staircase",
+      "name": "Designer Epoxy Staircase",
+      "tagline": "Live-Edge River Wood & Continuous Waterfall Marble Steps",
+      "description": "Make your staircase the centerpiece of your architecture. We cast custom solid wood resin river steps or wrap existing concrete/granite stairs in seamless metallic marble with certified anti-skid grip.",
+      "mainImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "features": [
+        "Anti-Skid Clear Grip Nose Treatment for Safety",
+        "Live-Edge Natural Timber Encapsulation",
+        "Seamless Waterfall Treads & Risers",
+        "Optional Night-Glow Safety Crystals",
+        "Impact Resistant Against Heavy Footwear"
+      ],
+      "suitableLocations": [
+        "Duplex Villas",
+        "Penthouse Staircases",
+        "Commercial Atriums",
+        "Boutique Hotels"
+      ],
+      "minRate": 2000,
+      "maxRate": 4500,
+      "unit": "step",
+      "isPublished": true
+    },
+    {
+      "id": "srv-6",
+      "slug": "ceiling",
+      "name": "Resin Ceiling & Backlit Domes",
+      "tagline": "Translucent Onyx Sheets, Starlight Galaxies & Open Skies",
+      "description": "Elevate your vertical perspective with translucent resin onyx ceiling panels, starry night fiber optic domes, or hyper-realistic daytime skies.",
+      "mainImage": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+      "features": [
+        "Translucent Onyx with Custom LED Backlighting",
+        "Fiber Optic Starlight Twinkle Systems",
+        "Lightweight Architectural Poly-resin",
+        "Zero Sagging & Fire Retardant Formulations",
+        "Dimmable Smart Home App Control Ready"
+      ],
+      "suitableLocations": [
+        "Dining Room Ceiling Island",
+        "Home Theatres",
+        "Master Bedrooms",
+        "Spa Lounges"
+      ],
+      "minRate": 380,
+      "maxRate": 850,
+      "unit": "sq.ft.",
+      "isPublished": true
+    },
+    {
+      "id": "srv-7",
+      "slug": "commercial-industrial",
+      "name": "Commercial & Industrial Epoxy",
+      "tagline": "Heavy Duty Self-Leveling, Terrazzo & ESD Flooring",
+      "description": "Engineered for high compressive strength, chemical resistance, anti-microbial hygiene, and electrostatic dissipation across factories, hospitals, and luxury commercial centers.",
+      "mainImage": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+      "features": [
+        "High Compressive Load (Forklift & Heavy Machinery)",
+        "Chemical, Acid & Solvent Proof Formulations",
+        "Hygienic Anti-Bacterial Cleanroom Grade",
+        "ESD Anti-Static Dissipative Options",
+        "Custom Corporate Logo & Wayfinding Inlays"
+      ],
+      "suitableLocations": [
+        "Manufacturing Plants",
+        "Automotive Showrooms",
+        "Cleanroom Labs",
+        "Shopping Malls",
+        "Warehouses"
+      ],
+      "minRate": 150,
+      "maxRate": 750,
+      "unit": "sq.ft.",
+      "isPublished": true
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "name": "Royal Penthouse Italian Marble Transformation",
+      "location": "Salt Lake Sector V, Kolkata",
+      "category": "metallic-marble",
+      "designUsed": "ME-01 Italian Royal Marble",
+      "area": "1,850 sq.ft.",
+      "beforeImage": "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&w=1000&q=80",
+      "afterImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Converted an aging, stained ceramic tile floor into a seamless, high-mirror Italian Carrara metallic resin floor without demolishing the existing tiles.",
+      "clientName": "Dr. S. Mukherjee",
+      "completionDate": "2026-01-20",
+      "isPublished": true
+    },
+    {
+      "id": "proj-2",
+      "name": "Luxury Villa 3D Coral Suite",
+      "location": "Rajarhat, New Town",
+      "category": "3d-flooring",
+      "designUsed": "3D-FL-01 Coral Underwater",
+      "area": "240 sq.ft.",
+      "beforeImage": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1000&q=80",
+      "afterImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Created a jaw-dropping master bathroom underwater experience with anti-skid transparent micro-bead finish and complete waterproofing.",
+      "clientName": "Mr. R. Agarwal",
+      "completionDate": "2026-02-05",
+      "isPublished": true
+    },
+    {
+      "id": "proj-3",
+      "name": "Artisan Geode Mural & Backlit Onyx Foyer",
+      "location": "Alipore, Kolkata",
+      "category": "wall-art",
+      "designUsed": "WALL-3D-02 Crystal Geode Mural",
+      "area": "180 sq.ft.",
+      "beforeImage": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=80",
+      "afterImage": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=1200&q=80",
+      "description": "Hand-sculpted natural amethyst and quartz crystal geode feature wall in the reception lobby with custom concealed warm LED strips.",
+      "clientName": "Heritage Jewels Showroom",
+      "completionDate": "2026-02-18",
+      "isPublished": true
+    },
+    {
+      "id": "proj-4",
+      "name": "Duplex Teak Resin River Staircase",
+      "location": "Ballygunge, Kolkata",
+      "category": "staircase",
+      "designUsed": "ST-01 Resin River Wood Steps",
+      "area": "22 Steps + Landings",
+      "beforeImage": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=80",
+      "afterImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "description": "Crafted 22 steps of seasoned Burmese Teak with deep turquoise metallic resin river veins, sealed with Anti-Skid Clear Grip armor.",
+      "clientName": "K. Sengupta",
+      "completionDate": "2026-02-28",
+      "isPublished": true
+    }
+  ],
+  "bookings": [],
+  "enquiries": [
+    {
+      "id": "enq-201",
+      "name": "Debashis Sen",
+      "mobile": "+91 98305 77661",
+      "location": "Behala Chowrasta, Kolkata",
+      "service": "Metallic & Resin Marble",
+      "design": "ME-03 Midnight Galaxy",
+      "approxArea": "600 sq.ft.",
+      "message": "Can this be applied on top of old mosaic floor? Please share estimated cost and timeline.",
+      "status": "Closed",
+      "createdAt": "2026-09-21 08:45 AM"
+    },
+    {
+      "id": "enq-202",
+      "name": "Sneha Chawla",
+      "mobile": "+91 90510 33452",
+      "location": "Howrah, West Bengal",
+      "service": "Resin Wall Art & Cladding",
+      "design": "WALL-3D-02 Crystal Geode Mural",
+      "approxArea": "120 sq.ft.",
+      "message": "Want to make a gold and emerald geode wall behind our 75-inch TV. Do you provide 3D visual preview before making?",
+      "status": "Contacted",
+      "createdAt": "2026-09-20 02:15 PM"
+    },
+    {
+      "id": "enq-203",
+      "name": "Rajesh Sharma (Apex Motors)",
+      "mobile": "+91 98310 99432",
+      "location": "Chinar Park, Kolkata",
+      "service": "Commercial & Industrial Epoxy",
+      "design": "COM-01 Heavy-Duty Self-Leveling",
+      "approxArea": "4,500 sq.ft.",
+      "message": "Need quotation for automotive car showroom and service bay with tire-mark resistance.",
+      "status": "Quotation Sent",
+      "createdAt": "2026-09-18 05:00 PM"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "customerName": "Abhishek & Tanushree Bose",
+      "location": "Silver Spring, EM Bypass",
+      "serviceUsed": "ME-01 Italian Royal Marble",
+      "review": "Our 1,400 sq.ft. apartment floor looks like a 7-star palace suite! The liquid gold veins on pure white resin look far richer than Italian marble slabs, and with zero tile joint lines, cleaning is effortless.",
+      "rating": 5,
+      "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "date": "2026-02-14",
+      "isPublished": true
+    },
+    {
+      "id": "rev-2",
+      "customerName": "Sanjay Mukherjee",
+      "location": "New Town, Kolkata",
+      "serviceUsed": "3D-FL-01 Coral Underwater Bathroom",
+      "review": "The 3D depth in our master bathroom is unbelievable. Guests always stop in awe when they step in. The anti-slip micro-texture is completely safe even with wet soapy feet. Highly recommend Royal Resin team!",
+      "rating": 5,
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "date": "2026-02-20",
+      "isPublished": true
+    },
+    {
+      "id": "rev-3",
+      "customerName": "Priyanka Ghosh",
+      "location": "Ballygunge Circular Road",
+      "serviceUsed": "WALL-3D-02 Geode Wall & Resin River Steps",
+      "review": "True artisan craftsmanship. The team took 4 days to hand-craft the geode wall with real crystals and light strips. It has become the signature conversation piece of our duplex.",
+      "rating": 5,
+      "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      "date": "2026-03-01",
+      "isPublished": true
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-1",
+      "question": "Epoxy flooring কী? (What is Epoxy Flooring?)",
+      "answer": "Epoxy flooring হলো একটি হাই-টেক পলিমার সিস্টেম যা লিকুইড রেজিন এবং হার্ডেনার মিশিয়ে মেঝেতে ঢালা হয়। এটি একটি সিমলেস (কোনো জোড়া ছাড়া), হাই-গ্লস, গ্লাস-লাইক শক্ত আবরণ তৈরি করে যা সাধারণ মার্বেল বা টাইলের চেয়ে অনেক গুণ বেশি টেকসই ও সহজে পরিষ্কারযোগ্য।",
+      "category": "General",
+      "isPublished": true,
+      "order": 1
+    },
+    {
+      "id": "faq-2",
+      "question": "2D এবং 3D flooring-এর difference কী?",
+      "answer": "2D Epoxy Flooring-এ মেটালিক পিগমেন্ট, মার্বেল ভেইন, বা স্টেনসিল জিওমেট্রিক প্যাটার্ন ফুটিয়ে তোলা হয়। অন্যদিকে 3D Epoxy Flooring-এ হাই-ডেফিনিশন অপটিক্যাল পার্সপেক্টিভ প্রিন্টের ওপর ক্রিস্টাল ক্লিয়ার রেজিন দিয়ে গভীরতার (depth illusion) থ্রি-ডাইমেনশনাল এফেক্ট তৈরি করা হয় (যেমন: আন্ডারওয়াটার কোরাল, জলপ্রপাত ইত্যাদি)।",
+      "category": "Designs",
+      "isPublished": true,
+      "order": 2
+    },
+    {
+      "id": "faq-3",
+      "question": "প্রতি sq.ft. কত খরচ হতে পারে?",
+      "answer": "বেসিক ডিজাইনার 2D ফ্লোরিং ₹280/sq.ft. থেকে শুরু হয়, মেটালিক মার্বেল ফ্লোরিং ₹350–₹580/sq.ft. এবং প্রিমিয়াম 3D অপটিক্যাল ফ্লোরিং ₹450–₹780/sq.ft. পর্যন্ত হতে পারে। বিস্তারিত রেট শিট আমাদের Pricing পেজে পেয়ে যাবেন।",
+      "category": "Pricing",
+      "isPublished": true,
+      "order": 3
+    },
+    {
+      "id": "faq-4",
+      "question": "Final price কীভাবে calculate হয়?",
+      "answer": "ফাইনাল কোটেশন নির্ভর করে মোট স্কোয়ার ফিট এরিয়া, বর্তমান মেঝের কন্ডিশন (ময়েশ্চার ও ক্র্যাক লেভেল), সিলেক্টেড ডিজাইন ও মেটালিক লেয়ারের ঘনত্ব, এবং টপকোট স্পেসিফিকেশন (পলিঅ্যাসপার্টিক / অ্যান্টি-স্ক্র্যাচ / অ্যান্টি-স্লিপ) এর ওপর। সাইট ভিজিটের পর আমরা ফ্রি মেজারমেন্ট ও সঠিক এস্টিমেট দিই।",
+      "category": "Pricing",
+      "isPublished": true,
+      "order": 4
+    },
+    {
+      "id": "faq-5",
+      "question": "Existing floor বা পুরোনো টাইলের ওপর কি সরাসরি করা যায়?",
+      "answer": "হ্যাঁ, অবশ্যই! আমাদের স্পেশাল ডায়মন্ড গ্রাইন্ডিং ও হাই-বন্ড প্রাইমার টেকনোলজির মাধ্যমে পুরোনো মার্বেল, মোজাইক বা সিরামিক টাইলের ওপর কোনো ভাঙচুর বা ধূলোবালি ছাড়াই সরাসরি রেজিন ফ্লোরিং করা যায়।",
+      "category": "Installation",
+      "isPublished": true,
+      "order": 5
+    },
+    {
+      "id": "faq-6",
+      "question": "পুরো কাজ সম্পন্ন করতে কতদিন সময় লাগে?",
+      "answer": "সাধারণত একটি ৫০০-১০০০ স্কোয়ার ফিটের ফ্ল্যাটের জন্য ৩ থেকে ৫ দিন সময় লাগে (সারফেস প্রিপারেশন, প্রাইমার, ডিজাইন লেয়ার, এবং কিউরিং টাইম সহ)। কাজ শেষের ২৪-৪৮ ঘণ্টার মধ্যে হালকা হাঁটাচলা করা যায়।",
+      "category": "Installation",
+      "isPublished": true,
+      "order": 6
+    },
+    {
+      "id": "faq-7",
+      "question": "Design কি পুরোপুরি custom করা যায়?",
+      "answer": "হ্যাঁ! আপনার ঘরের ওয়াল কালার, ফার্নিচার বা ব্যক্তিগত পছন্দের ওপর ভিত্তি করে কালার শেড, মার্বেল ভেইনের প্যাটার্ন, গোল্ড ফ্লেক ডেনসিটি কিংবা আপনার নিজস্ব লোগো/ছবি দিয়ে ১০০% কাস্টম ডিজাইন তৈরি করা যায়।",
+      "category": "Designs",
+      "isPublished": true,
+      "order": 7
+    },
+    {
+      "id": "faq-8",
+      "question": "এটি কি সম্পূর্ণ Waterproof এবং বাথরুমে পিছলে পড়ার ভয় আছে?",
+      "answer": "রয়্যাল রেজিন ফ্লোরিং ১০০% ওয়াটারপ্রুফ এবং সিলড। বাথরুম, কিচেন এবং সিড়ির জন্য আমরা বিশেষ সার্টিফাইড Anti-Skid Clear Grip মাইক্রো-টেক্সচার ব্যবহার করি যা মেঝে ভিজে থাকলেও একদম স্লিপ-রেসিস্ট্যান্ট থাকে।",
+      "category": "Maintenance",
+      "isPublished": true,
+      "order": 8
+    },
+    {
+      "id": "faq-9",
+      "question": "Cleaning এবং Maintenance কীভাবে করতে হয়?",
+      "answer": "যেহেতু কোনো জয়েন্ট বা গ্রাউট লাইন থাকে না, তাই ময়লা বা শ্যাওলা জমার কোনো সুযোগ নেই। সাধারণ নরম কাপড় বা মপ দিয়ে জল বা হালকা ফ্লোর ক্লিনার দিয়ে মুছে নিলেই কাঁচের মতো চকচক করবে। হার্শ অ্যাসিডের প্রয়োজন নেই।",
+      "category": "Maintenance",
+      "isPublished": true,
+      "order": 9
+    },
+    {
+      "id": "faq-10",
+      "question": "Site visit কীভাবে book করব?",
+      "answer": "আমাদের ওয়েবসাইটের \"Book a Site Visit\" ফর্মে আপনার নাম, ঠিকানা ও পছন্দের তারিখ দিয়ে সাবমিট করলেই আমাদের টিম কল করে কনফার্ম করবে। আমাদের এক্সপার্ট রিয়েল ডিজাইন স্যাম্পল নিয়ে আপনার লোকেশনে গিয়ে মেজারমেন্ট ও কনসাল্টেশন প্রদান করবেন।",
+      "category": "Booking",
+      "isPublished": true,
+      "order": 10
+    }
+  ],
+  "homeContent": {
+    "heroTitle": "ROYAL RESIN INTERIOR",
+    "heroHighlight": "We Turn Your Floors & Walls Into Living Art",
+    "heroSubtitle": "Premium 2D & 3D Epoxy Flooring, Resin Art, Designer Walls, Staircases & Luxury Interior Finishes.",
+    "heroBadge": "✦ Bengal's Premier Luxury Resin Finishes Studio",
+    "heroImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85",
+    "ctaPrimaryText": "Explore Designs",
+    "ctaSecondaryText": "Book a Site Visit",
+    "whyChooseUs": [
+      {
+        "title": "Premium Mirror Finish",
+        "description": "Diamond-grade crystal gloss and seamless monolithic elegance without grout lines.",
+        "iconName": "Sparkles"
+      },
+      {
+        "title": "Custom Artisan Designs",
+        "description": "100% bespoke color matching, veins, embedded crystals and Italian marble styles.",
+        "iconName": "Palette"
+      },
+      {
+        "title": "Easy Wipe Maintenance",
+        "description": "Stain-resistant, dust-repellent, zero porosity surface that wipes clean in seconds.",
+        "iconName": "ShieldCheck"
+      },
+      {
+        "title": "Scratch Resistant Options",
+        "description": "High-durability polyaspartic and ceramic nanocoatings engineered for heavy footfall.",
+        "iconName": "Shield"
+      },
+      {
+        "title": "Professional Installation",
+        "description": "Trained German-grade precision application team with laser moisture checking.",
+        "iconName": "Award"
+      },
+      {
+        "title": "Long-Lasting Finish",
+        "description": "Guaranteed bond strength that outlasts conventional tiles with zero tile cracking.",
+        "iconName": "Clock"
+      }
+    ],
+    "processSteps": [
+      {
+        "step": "01",
+        "title": "Choose Your Design",
+        "description": "Browse our extensive catalogue of Metallic Marble, 2D motifs, 3D underwater or geode walls."
+      },
+      {
+        "step": "02",
+        "title": "Book a Site Visit",
+        "description": "Schedule a free consultation on our website or directly via WhatsApp & phone."
+      },
+      {
+        "step": "03",
+        "title": "Site Measurement",
+        "description": "Our technical team visits with physical touch-and-feel samples and laser measure tools."
+      },
+      {
+        "step": "04",
+        "title": "Design & Quotation",
+        "description": "Get custom 3D mockups and a clear, transparent square-footage cost breakdown."
+      },
+      {
+        "step": "05",
+        "title": "Professional Installation",
+        "description": "Dust-free diamond grinding, precision pouring, and mirror-finish curing in 3-5 days."
+      }
+    ],
+    "finalCtaTitle": "Ready to Transform Your Space into a Living Masterpiece?",
+    "finalCtaSubtitle": "Join hundreds of satisfied luxury homeowners, architects and commercial spaces who elevated their interiors with Royal Resin."
+  },
+  "companyInfo": {
+    "businessName": "Royal Resin Interior",
+    "tagline": "Luxury Epoxy Flooring & Artisan Resin Interiors",
+    "phone": "+91 98300 12345",
+    "whatsapp": "+919830012345",
+    "email": "contact@royalresininterior.com",
+    "address": "Salt Lake City, Sector V, Kolkata, West Bengal 700091",
+    "fullAddress": "Tower 3, Infinity Benchmark, 8th Floor, Sector V, Bidhannagar, Kolkata, West Bengal - 700091",
+    "gmapUrl": "https://maps.google.com/?q=Infinity+Benchmark+Sector+V+Kolkata",
+    "businessHours": "Monday – Saturday: 9:30 AM – 7:30 PM | Sunday: By Appointment",
+    "socialLinks": {
+      "facebook": "https://facebook.com/royalresininterior",
+      "instagram": "https://instagram.com/royalresininterior",
+      "youtube": "https://youtube.com/@royalresininterior",
+      "pinterest": "https://pinterest.com/royalresininterior"
+    },
+    "currencySymbol": "₹"
+  },
+  "serviceAreas": [
+    {
+      "id": "area-1",
+      "city": "Kolkata",
+      "district": "Kolkata & North/South 24 Parganas",
+      "state": "West Bengal",
+      "nearbyAreas": [
+        "Salt Lake",
+        "New Town",
+        "Rajarhat",
+        "Alipore",
+        "Ballygunge",
+        "EM Bypass",
+        "Behala",
+        "Howrah"
+      ],
+      "active": true
+    },
+    {
+      "city": "Berhampore",
+      "state": "West Bengal",
+      "district": "Murshidabad",
+      "nearbyAreas": [],
+      "active": true,
+      "id": "area-1790009988057"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1790004953524",
+      "type": "booking",
+      "title": "New Site Visit Booking!",
+      "message": "prem booked a visit for 2D Flooring in Kolkata.",
+      "time": "Just now",
+      "isRead": false,
+      "targetId": "bkg-170"
+    },
+    {
+      "id": "notif-1790004655454",
+      "type": "booking",
+      "title": "New Site Visit Booking!",
+      "message": "prem booked a visit for Wall Art in Kolkata.",
+      "time": "Just now",
+      "isRead": false,
+      "targetId": "bkg-544"
+    },
+    {
+      "id": "notif-1790004612451",
+      "type": "booking",
+      "title": "New Site Visit Booking!",
+      "message": "prem booked a visit for 2D Flooring in Kolkata.",
+      "time": "Just now",
+      "isRead": false,
+      "targetId": "bkg-547"
+    },
+    {
+      "id": "notif-1",
+      "type": "booking",
+      "title": "New Site Visit Booking",
+      "message": "Anirban Bhattacharya booked a visit for Metallic & Resin Marble (ME-01) in New Town.",
+      "time": "15 mins ago",
+      "isRead": false,
+      "targetId": "bkg-101"
+    },
+    {
+      "id": "notif-2",
+      "type": "enquiry",
+      "title": "New Enquiry Received",
+      "message": "Debashis Sen enquired about Midnight Galaxy (ME-03) in Behala.",
+      "time": "45 mins ago",
+      "isRead": false,
+      "targetId": "enq-201"
+    }
+  ],
+  "adminUser": {
+    "name": "Executive Director",
+    "email": "admin@royalresininterior.com",
+    "phone": "+91 98300 12345",
+    "role": "Super Admin",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80"
+  }
+}
