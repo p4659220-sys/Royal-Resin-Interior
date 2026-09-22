@@ -833,8 +833,12 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   };
 
   const deleteCategory = (id: string) => {
+    const targetCategory = categories.find(c => c.id === id);
     setCategories(prev => prev.filter(c => c.id !== id));
-    addToast('warning', 'Category Deleted', 'Category removed.');
+    if (targetCategory) {
+      setServices(prev => prev.filter(s => s.id !== id && s.slug !== targetCategory.slug));
+    }
+    addToast('warning', 'Category Deleted', 'Category and matching service removed.');
   };
 
   // Services
@@ -850,8 +854,12 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   };
 
   const deleteService = (id: string) => {
+    const targetService = services.find(s => s.id === id);
     setServices(prev => prev.filter(s => s.id !== id));
-    addToast('warning', 'Service Deleted', 'Service offering removed.');
+    if (targetService) {
+      setCategories(prev => prev.filter(c => c.id !== id && c.slug !== targetService.slug));
+    }
+    addToast('warning', 'Service Deleted', 'Service and matching category removed.');
   };
 
   // Projects CRUD

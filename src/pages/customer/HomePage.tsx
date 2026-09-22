@@ -205,7 +205,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-          {categories.slice(0, 6).map((cat) => {
+          {categories
+            .filter(cat => services.some(s => s.slug === cat.slug || s.id === cat.id))
+            .slice(0, 6)
+            .map((cat) => {
             const serviceSlugMap: Record<string, string> = {
               'metallic-marble': 'service-metallic-marble',
               '2d-flooring': 'service-2d-flooring',
