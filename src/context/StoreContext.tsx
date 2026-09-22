@@ -202,7 +202,7 @@ interface StoreContextType {
 
 const StoreContext = createContext<StoreContextType | undefined>(undefined);
 
-const LOCAL_STORAGE_KEY = 'royal_resin_interior_store_v1';
+const LOCAL_STORAGE_KEY = 'royal_resin_interior_store_v2';
 
 export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   // Load state from local storage or defaults
